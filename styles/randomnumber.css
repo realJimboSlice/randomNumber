@@ -1,0 +1,56 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4e7;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.inputfelt {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.knap {
+  font-size: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+
+.knap:hover {
+  background-color: #494848;
+}
+
+.knap:active {
+  background-color: #000000;
+}
+
+.output {
+  font-size: 100px;
+}
